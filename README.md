@@ -1,6 +1,6 @@
 # Flutter
 
-Flutter es un framework de desarrollo de aplicaciones multiplataforma creado por Google. Con él, puedes crear aplicaciones para Android, iOS, web, y escritorio desde una única base de código utilizando el lenguaje Dart.
+Es un framework de desarrollo de aplicaciones multiplataforma creado por Google. Con él, puedes crear aplicaciones para Android, iOS, web, y escritorio desde una única base de código utilizando el lenguaje Dart.
 
 ## Flutter consta de dos partes importantes
 
@@ -16,7 +16,7 @@ Flutter es un framework de desarrollo de aplicaciones multiplataforma creado por
 
 ## Instalación y Configuración
 
-### ¿Necesito descargar Dart primero? `No`
+### ¿Necesito descargar Dart primero?
 
 - No es necesario instalar Dart por separado, ya que el SDK de Flutter incluye el SDK de Dart completo.
 
@@ -27,10 +27,6 @@ Flutter es un framework de desarrollo de aplicaciones multiplataforma creado por
 ### Configurar el entorno
 
 - Descomprimir el SDK y añade Flutter en tu variable de entorno `PATH`.
-
-Para escribir y compilar código Flutter para Android, debe tener la siguiente versión de Windows y los paquetes de software enumerados.
-
-- Flutter es compatible con la versión de 64 bits de Microsoft Windows 10 o posterior. Estas versiones de Windows deben incluir Windows PowerShell 5 o posterior.
 
 ### Herramientas de desarrollo
 
@@ -47,7 +43,7 @@ flutter doctor
 ```
 
 - **Solucionar problemas de Flutter**
-Cuando el flutter doctorcomando devuelve un error, podría deberse a Flutter, VS Code, Android Studio, el dispositivo conectado o los recursos de red.
+Cuando el flutter doctor devuelve un error, podría deberse a Flutter, VS Code, Android Studio, el dispositivo conectado o los recursos de red. Para saber más específico use el siguiente comando.
 
 ```bash
 flutter doctor -v
@@ -109,6 +105,14 @@ Este comando actualiza las dependencias del proyecto definidas en el archivo `pu
 
 ```bash
 flutter pub get
+```
+
+### Añadir dependencias
+
+Este comando añade una dependencia específica al proyecto en el archivo `pubspec.yaml`.
+
+```bash
+flutter pub add nombre_paquete
 ```
 
 ### Limpiar el proyecto
